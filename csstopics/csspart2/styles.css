@@ -1,0 +1,26 @@
+.bordersexamples {
+	color : Black;
+	/*you can do like this, for the four sides of the border, or just specify one */
+	border-style : groove dashed groove dashed;
+	border-color : Purple Pink Blue Red;
+	border-width : 10px 30px 10px 30px;
+
+	/*paddings are ways to create spaces between your texts and the borders */
+
+	padding: 40px;
+
+	height : 50px;
+	width : 50%;
+
+	background-color: Green;
+}
+
+h1 {
+	outline : 3px dashed Black;
+	outline-offset : 10px;
+}
+
+.personalizada {
+	text-align : center;
+
+}

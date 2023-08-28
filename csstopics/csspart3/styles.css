@@ -1,0 +1,14 @@
+h1 {
+	color : Blue;
+	font-size: 50px;
+}
+
+table, th , td{
+	border : 2px solid;
+	text-align: center;
+	width: 50%;
+}
+
+td:hover {
+	background-color : Purple;
+}

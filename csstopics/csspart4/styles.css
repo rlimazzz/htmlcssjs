@@ -1,0 +1,11 @@
+h1 +p {
+	background-color : Blue;
+}
+
+div b{
+	background-color: Green;
+}
+
+h1 > p{
+	background-color: Yellow;
+}
