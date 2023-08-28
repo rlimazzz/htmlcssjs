@@ -1,1 +1,1 @@
-These archives dervies from freecodecamp fullstack course
+These archives derives from freecodecamp fullstack course
