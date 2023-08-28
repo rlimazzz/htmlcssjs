@@ -1,0 +1,35 @@
+/* This is what we call selectors, their work is to select a part of our code and customize it, the structure of anselector is like this :
+ * identificator_of_selector{ changes} */
+
+body {
+	background-color : Black;
+	color : White;
+}
+
+/* we can specify the selectors we want to use, just see obs 1 in html */
+
+#specified {
+	color : Blue;
+}
+/* look how useful is this, you only need to put a # on the beggining and you have only the functions with id specified in the html with the color blue */
+
+/*We can have classes on css too, look at obs 2 in html */
+.classified {
+	color : Pink;
+}
+
+/* in this structure we change all the instances h1 of html to be green */
+h1.classified {
+	color : Green;
+}
+
+/*this is an universal selector, every instances that does not have a selector will be colored white */
+* {
+	color : White;
+}
+
+/* if you want to have multiple instances with the same style you can declare in the same line */
+
+head, h1 {
+	color : Grey;
+}
